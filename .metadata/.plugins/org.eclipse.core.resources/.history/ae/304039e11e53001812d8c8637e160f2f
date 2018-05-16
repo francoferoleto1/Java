@@ -1,0 +1,27 @@
+package clase8;
+
+import java.util.Scanner;
+
+public class menus {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		System.out.println("Ingrese 2 numeros:");
+		Scanner sc = new Scanner(System.in);
+		int num1 = sc.nextInt();
+		int num2 = sc.nextInt();
+	
+	int suma = (num1+num2);
+	int resta = (num1-num2);
+	int mult = (num1*num2);
+	int div = (num1/num2);
+	
+	System.out.println("La suma es: "+suma);
+	
+	}
+	
+	
+	
+	
+
+}

@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class sipSigoAca {
 
 	public static void main(String[] args) {
-		double [] notas = new double [10]; 
+		double [] notas = new double [3]; 
 		double promedio = 0;
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Ingrese sus calificaciones: ");
